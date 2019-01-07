@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Zarza Training</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+	<link rel="stylesheet" type="text/css" href="css/Tarjeta.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/menu.js"></script>
+	<script stc="js/main.js"></script>
+	<link rel="icon" type="img/ico" href="img/favicon.ico">
+</head>
+<body>
+<header>
+	<div class="menu_bar">
+		<a href="#" class="bt-menu" title="Menu"><span class="icon-menu"></span>Menu</a>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="index.html" title="Inicio"><span class="icon-home"></span>Zarza Training</a></li>
+			<li><a href="entrenamientos.html" title="Ir a Entrenamientos"><span class="icon-fire"></span>Entrenamientos</a></li>
+			<li><a href="sabermas.html" title="Ir a Saber más"><span class="icon-book"></span>Saber más</a></li>
+			<li><a href="tienda.html"title="Ir a Tienda"><span class="icon-cart"></span>Tienda</a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+			<img src="img/Tienda/Reglas.jpg" width="700px" height="400px" alt="Reglas">
+	<div class="main">
+		<div class="slides">
+			<img src="img/Tienda/Full_Metal_Carrot.jpg" alt="Full Metal Carrot">
+			<img src="img/Tienda/Chop_Suey.jpg" alt="Chop Suey">
+			<img src="img/Tienda/Arroz_Tartaletas.jpg" alt="Arroz con Tartaletas">
+			<img src="img/Tienda/Arroz_PolloGrille.jpg" alt="Arroz con Pollo Grille">
+			<img src="img/Tienda/Alquimist_brownie.jpg" alt="Alquimist brownie">
+			<img src="img/Tienda/Akuma_no_mi.jpg"  alt="Akuma no mi">
+			<img src="img/Tienda/A_Morrones_Rellenos.jpg"  alt="Arroz con Morrones Rellenos">
+		</div>
+	</div>
+</section>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.slides.js"></script>
+<script>
+	$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+ </script>
+</body>
+</html>
