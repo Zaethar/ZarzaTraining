@@ -11,23 +11,28 @@
 	repeat-y:no-repeat;
 }
 body{
-	font-family: 'Roboto', sans-serif;	
-	background-image:url("background.jpg");
+	background-image:url("entrenamiento.png");
 }
 section{
+	text-align:justify;
 	margin-left:12.75%;
 	margin-right:12.75%;
 	padding:20px;
-	color:rgba(11, 126, 162, 1);
+	color:rgba(255,255,255,0.8);
+}
+#tu_hermana{
+	text-decoration:line-through;
 }
 .contenedor{
 	float:left;
 }
 h1{
-    color:white;
+	text-align:center;
+	color:rgba(255,255,255,0.8);
 	font-size:150%;
 }
 h2{
-	color:white;
+	text-align:center;
+	color:rgba(255,255,255,0.8);
 	font-size:120%;
 }
